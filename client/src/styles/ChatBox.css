@@ -1,0 +1,40 @@
+.chat-box{
+  width:15em;
+  height:27em;
+  position: relative;
+}
+.textbar{
+position: absolute;
+margin-top: 8%;
+}
+.my-msg{
+  height:10em;
+  background-color: #e0e0e0;
+  overflow-y: auto;
+    overflow-x: auto;
+    box-shadow: 10px 10px;
+    border-radius: 5%;
+}
+.other-msg{
+  margin-top: 8%;
+  height:10em;
+  background-color:#efebe9;
+  overflow-y:auto;
+  box-shadow: 10px 10px;
+  overflow-x: auto;
+  border-radius: 5%;
+}
+.msginput{
+  width:100%;
+}
+.translate-yes{
+  transition: transform 0.5s ease;
+  transform:translate(500px,0px);
+}
+.translate-no{
+   transition: transform 0.5s ease;
+   transform: translate(-500px,0px)
+}
+.submit{
+  margin-left:10px;
+}
